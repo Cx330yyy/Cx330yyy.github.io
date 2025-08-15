@@ -1,0 +1,5 @@
+User-agent: *
+
+Disallow: /norobots/
+
+Sitemap: https://cx330yyy.github.io/Cx330yyy.github.io/sitemap.xml

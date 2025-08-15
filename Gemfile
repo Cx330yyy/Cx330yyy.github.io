@@ -1,14 +1,11 @@
-# frozen_string_literal: true
-
 source "https://rubygems.org"
 
-gemspec
+# 指定 Jekyll 版本
+gem "jekyll", "~> 4.4.1"
 
-gem "html-proofer", "~> 5.0", group: :test
+# 官方 Chirpy 主题
+gem "jekyll-theme-chirpy"
 
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", ">= 1", "< 3"
-  gem "tzinfo-data"
-end
+# 如果需要用 GitHub Pages 部署
+# gem "github-pages", group: :jekyll_plugins
 
-gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
